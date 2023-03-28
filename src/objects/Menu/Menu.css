@@ -1,0 +1,18 @@
+.menu {
+    display: block;
+    text-indent: -9999px;
+}
+
+.menu::after, .menu::before, .menu > .center {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: var(--color-fourth);
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.menu::after {
+    margin-bottom: 0;
+}
