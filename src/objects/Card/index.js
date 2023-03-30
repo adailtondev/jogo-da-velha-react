@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css'
+import './Card.css';
 
 const Card = () => (
     <article className='card'>
@@ -7,4 +7,4 @@ const Card = () => (
     </article>
 );
 
-export default Card
+export default Card;
